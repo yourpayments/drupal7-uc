@@ -1,0 +1,18 @@
+name = PayU
+description = PayU payment gateway for UberCart.
+package = Ubercart - payment
+core = 7.x
+configure = admin/store/settings/cart
+
+dependencies[] = uc_payment
+dependencies[] = uc_order
+dependencies[] = transliteration
+
+files[] = uc_payu.install
+files[] = uc_payu.module
+; Information added by drupal.org packaging script on 2012-08-30
+version = "7.x-1.0-rc1"
+core = "7.x"
+project = "uc_payu"
+datestamp = "1346314163"
+
