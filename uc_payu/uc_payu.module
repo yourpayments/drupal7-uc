@@ -6,7 +6,7 @@
  */
 if (!defined(' __DIR__')) define(' __DIR__', dirname(__FILE__));
 
-if( isset( $_GET]["PayUTesting"] ) &&  $_GET]["PayUTesting"] == 1 )
+if( isset( $_GET["PayUTesting"] ) &&  $_GET["PayUTesting"] == 1 )
 {
   ini_set('display_errors', true);
   error_reporting(E_ALL);
