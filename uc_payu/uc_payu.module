@@ -87,7 +87,7 @@ function uc_payu_list($form, &$form_state) {
 
   $form = array();
   $curType = array('UAH' => 'Гривны', 'RUB' => 'Рубли');
-  $country = array('https://secure.payu.ua/order/lu.php' => 'Украина', 'https://secure.payu.ru/order/lu.php' => 'Россия');
+  $country = array('https://secure.payu.ua/order/lu.php' => 'Украина', 'https://secure.ypmn.ru/order/lu.php' => 'Россия');
   $languages = array('RU' => 'Русский', 'EN' => 'Английский');
   $debug = array('1' => 'Включен', '0' => 'Выключен');
   
